@@ -81,7 +81,7 @@ function draw() {
   
   background(180);
   //displaying score
-  text("Score: "+ score, camerz.position.x,50);
+  text("Score: "+ score, camera.position.x,50);
   trex.x=camera.position.x-200
   
   if(gameState === PLAY){
